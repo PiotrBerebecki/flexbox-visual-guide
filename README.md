@@ -1,3 +1,3 @@
 Visual guide to laying out your content with Flexbox
 
-![](./images/flexbox-flex-direction-row.jpg)
+<img src="./images/flexbox-flex-direction-row.jpg" width="80%">
