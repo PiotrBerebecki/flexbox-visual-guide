@@ -31,7 +31,7 @@ The ``` flex-direction ``` property determines the direction of the main-axis an
 ## Distributing content along the main axis with justify-content
 The ```justify-content``` property defines the alignment of flex items along the **main-axis**. Bear in mind that the main axis runs horizontally or vertically depending on the flex-direction, so justify-content will distribute items horizontally in row layout, and vertically in column layout.
 
-
+## justify-content (in row layout)
 <img src="./images/flexbox-flex-direction-row-justify-content.jpg" width="80%">
 
 ## justify-content (in column layout)
