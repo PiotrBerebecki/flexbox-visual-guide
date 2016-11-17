@@ -10,7 +10,14 @@ Flexbox layout is defined by adding the following CSS rule to the element contai
 }
 ```
 
-## Row layout
+## flex-direction
+The ``` flex-direction ``` property determines the direction of the main-axis and cross-axis, thus defining the direction in which the flex items are placed. You can think of flex items arranging either horizontally in a row, or vertically in a column.
+### row layout
+```css
+.container {
+    flex-direction: row;
+}
+```
 <img src="./images/flexbox-flex-direction-row.jpg" width="80%">
 
 ## Column layout
