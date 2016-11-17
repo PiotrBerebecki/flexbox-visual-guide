@@ -11,10 +11,10 @@ Flexbox layout is defined by adding the following CSS rule to the element contai
 ```
 
 ## Arranging items horizontally or vertically with flex-direction
-The ``` flex-direction ``` property determines the direction of the main-axis and cross-axis, thus defining the direction in which the flex items are placed. You can think of flex items arranging either horizontally in a row, or vertically in a column.
+The `flex-direction` property determines the direction of the main axis and cross axis, thus defining the direction in which the flex items are placed. You can think of flex items arranging either horizontally in a row, or vertically in a column.
 ### Row layout
 ```css
-.container {
+#container {
     flex-direction: row;
 }
 ```
@@ -22,14 +22,14 @@ The ``` flex-direction ``` property determines the direction of the main-axis an
 
 ### Column layout
 ```css
-.container {
+#container {
     flex-direction: column;
 }
 ```
 <img src="./images/flexbox-flex-direction-column.jpg" width="80%">
 
 ## Distributing content along the main axis with justify-content
-The ```justify-content``` property defines the alignment of flex items along the **main-axis**. Bear in mind that the main axis runs horizontally or vertically depending on the flex-direction, so justify-content will distribute items horizontally in row layout, and vertically in column layout.
+With the `justify-content` property you can distribute the flex items along the **main-axis**. Bear in mind that the main axis runs horizontally or vertically depending on the flex-direction, so `justify-content` will distribute items horizontally in row layout, and vertically in column layout.
 
 ## justify-content (in row layout)
 <img src="./images/flexbox-flex-direction-row-justify-content.jpg" width="80%">
